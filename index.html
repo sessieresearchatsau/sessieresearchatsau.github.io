@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <base href='/'>
+
+        <title>Sequential Substitution Systems</title>
+        <meta name="author" content="Micah Tanner" />
+        <meta name="date" content="4-12-21" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="assets/micahsawefulstyle.css">
+    </head>
+
+    <body onload="onFirstLoad()">
+        <header>
+            <a class="nav-link" role="button" onclick="loadContent('home')">Home</a>
+            <a class="nav-link" role="button" onclick="loadContent('about')">About</a>
+            <a class="nav-link" role="button" onclick="loadContent('FAQs')">FAQs</a>
+            <a class="nav-link" role="button" onclick="loadContent('contact')">Contact</a>
+        </header>
+
+        <main role="main" class="container" id="page-content"></main>
+
+        <footer>Copyright &copy; 2021. Micah Tanner. All Rights Reserved.
+                Template By Miro Manestar
+        </footer>
+
+        <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              },
+              svg: {
+                fontCache: 'global'
+              }
+            };
+        </script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="assets/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<h1> FAQ: SSS (Sessies)</h1>
+<div>
+    <p>The toy "universe" is a string of characters, whose initial state can have any length and can contain any characters.  (Two infinities here: length of string and size of the alphabet from which the characters are taken.)  The "laws of nature" for the SSS are codified by a ruleset: a set of replacement instructions, each giving a string to search for and the string to replace it with.  Ex: {"AB"->"BA"}.  (More infinities: there is no limit on the number of rules in the ruleset, nor on the size of the strings, nor on the characters in the strings.) </p>
+    <p>In a sequential substitution system, rules must be applied sequentially in order (use the first rule if possible, the second only if the first fails, etc.) from left-to-right:  if the first usable rule can be used at multiple locations in the state string, we apply it in the first possible (left-most) position.</p>
+    <p>Each application of any rule is an event, and each event destroys and/or creates cells (or letters) in the state string.  Two events are considered to be causally connected if a cell created by one is destroyed by the other.</p>
+    <p>The causal network of an SSS can be visualized by treating all events as graph nodes and the causal connections between them as graph edges. </p>
+    <p>The basic command to display a sessie is SSS.  The template for usage is: </p>
+    <p>$SSS[ruleset, initial state, number of steps, options]$.</p>
+</div>
+<div id = "example">
+    <p>Example:</p>
+    <p>$SSS[\{"ABA" \rightarrow "AAB","A" \rightarrow "ABA" \}, "AB",25]$</p>
+    <img src="/pages/FAQs/SSS/images/example1.png" alt="Example 1">
+</div>
