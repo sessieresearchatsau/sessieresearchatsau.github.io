@@ -7,8 +7,16 @@
     <p>The basic command to display a sessie is SSS.  The template for usage is: </p>
     <p>$SSS[ruleset, initial state, number of steps, options]$.</p>
 </div>
-<div id = "example">
+<div class= "example">
     <p>Example:</p>
     <p>$SSS[\{"ABA" \rightarrow "AAB","A" \rightarrow "ABA" \}, "AB",25]$</p>
     <img src="/pages/FAQs/SSS/images/example1.png" alt="Example 1">
+</div>
+<div>
+    <ol>
+        <li>By default, the display includes both the sessie (on the left) and its causal network (on the right).  The colored cells in the sessie display represent the changing state string, one line per state, with (micro-)time advancing downward.  (Here the gray cells are As and the red cells Bs).  Events correspond to the change from one state to the next.</li>
+        <li>We can dispense with the arrows indicating the direction of the causal connection in the network if the node numbers are given, since the arrow will always point from smaller to larger node number. </li>
+        <li>Although the command above performed 25 steps and so the causal network has 25 events, the SSSMax option can limit the display of the actual sessie to whatever we want, showing only the beginning of the continuing pattern.</li>
+    </ol>
+    <p>(a couple other common options: $NetSize \rightarrow 200, HighlightMethod \rightarrow Dot$</p>
 </div>
