@@ -1,30 +1,30 @@
 ---
-- Home
-  - [Project Overview](quickstart.md)
-  - [Getting Started](more-pages.md)
-  - [External Resources](more-pages.md)
+- [Home](/)
+  - [Project Overview](home/project-overview.md)
+  - [External Resources](home/external-resources.md)
 
 - Research Progress
-  - [Goals & Next Steps](goals.md)
-  - [Research Log](research_logs.md)
-  - [Published Papers](published_papers.md)
+  - [Projects](progress/projects.md)
+  - [Research Log](progress/research-log.md)
+  - [Goals & Next Steps](progress/goals.md)
+  - [Published Research](progress/published-research.md)
 
 - Software Resources
-  - [Mathematica](mathematica.md)
-  - [RuleFlow (Python/Conda)](ruleflow.md)
-  - [Git/GitHub (Version Control)](github.md)
-  - [Markdown](markdown.md)  <!-- includes Obsidian and Docsify -->
-  - [Formal Writing Tools](formal_writing.md)  <!-- includes Overleaf and JabRef -->
+  - [Mathematica](software/mathematica.md)
+  - [RuleFlow (Python/Conda)](software/ruleflow.md)
+  - [Git/GitHub (Version Control)](software/git.md)
+  - [Markdown](software/markdown.md)  <!-- includes Obsidian and Docsify -->
+  - [Formal Writing Tools](software/formal-writing.md)  <!-- includes Overleaf and JabRef -->
 
 - Team Policy & Management
-  - [Content Uploading Policy](content_uploading.md)
-  - [Team Management (Admin)](teams.md)
-  - [Clock Management](clocking.md)
-  - [Licensing & Attribution](licensing.md)
+  - [Contribution Policy](policy/contribution-policy.md)
+  - [Time Management](policy/time-management.md)
+  - [Managing Teams (Admin)](policy/managing-teams.md)
+  - [Licensing & Attribution](policy/licensing.md)
 
 ---
 
 - [FAQs](faqs.md)
-- [Glossary](glossery.md)
-- [Contributors](awesome.md)
-- [Contact](changelog.md)
+- [Glossary](glossary.md)
+- [Contributors](contributors.md)
+- [Contact](contact.md)
