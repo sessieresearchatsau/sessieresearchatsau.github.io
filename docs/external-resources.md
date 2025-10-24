@@ -1,6 +1,6 @@
 # External Resources
 
-> Ongoing TODO: list links to all relevant papers/math sites that are external to the Sessie Research Group (possibly with short descriptors)
+> Ongoing TODO: Relevant resources that are external to the Sessie Research Group are included here. This page may also act as a **living literature review** of ongoing research.
 
 ## Wolfram MathWorld
 - [Stephen Wolfram: A New Kind of Science](https://www.wolframscience.com/nks/)

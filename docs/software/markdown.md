@@ -86,18 +86,18 @@ def greet(name):
 
 - **Inline math**:
 ```markdown
-$(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{\,n-k} y^{\,k}$
+$(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{n-k} y^k$
 ```
-renders: $(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{\,n-k} y^{\,k}$
+renders: $(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{n-k} y^k$
 
 - **Math Block**:
 ````markdown
 $$
-(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{\,n-k} y^{\,k}
+(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{n-k} y^k
 $$
 ````
 renders
-$$(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{\,n-k} y^{\,k}$$
+$$(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{n-k} y^k$$
 
 #### 8. Tables
 
@@ -108,8 +108,20 @@ $$(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{\,n-k} y^{\,k}$$
 | Value 3  | Value 4  |
 ```
 
+#### 9. Diagrams (Using Mermaid)
 
----
+```markdown (mermaid diagram)
+graph TD
+    A[Main Project Documentation Hub]
+
+    A <--> B[Software Packages]
+    A <--> C[Research & Notebook Bases]
+    A <--> D[Applications Exploration]
+    A <--> E[Resources]
+    A <--> F[Other Repos, etc.]
+```
+will render [this](index.md#organizational-structure) diagram.
+
 
 ## Obsidian
 Obsidian is a knowledge management and note‑taking tool/editor built around Markdown files. It stores your notes locally as plain `.md` files, which means your data is portable and future‑proof. It makes working with markdown **very easy** because it offers a nice visual editor... no hard learning curve! Its standout feature is the ability to link notes together and visualize them in a graph view, making it useful for building personal knowledge bases, research logs, or project documentation. Obsidian also supports plugins, themes, and advanced Markdown features like math and diagrams. You can sync your `.md` files either to GitHub or to a cloud drive (like Google Drive).
@@ -119,8 +131,6 @@ Obsidian is a knowledge management and note‑taking tool/editor built around Ma
 - [Obsidian Help documentation](https://help.obsidian.md/)
 - [Obsidian entry on Markdown Guide](https://www.markdownguide.org/tools/obsidian/)
 
-
----
 
 ## Docsify
 Docsify is a documentation site generator that turns Markdown files into a live, navigable website. Unlike static site generators, it doesn’t pre‑build HTML files—instead, it loads and renders your Markdown directly in the browser. This makes it lightweight and easy to set up: you just need an `index.html` and your Markdown files. For example, the documentation site currently on is powered by Docsify, meaning it’s essentially a collection of Markdown files displayed as a website. Since Markdown is plain text, you can also open and edit these files in editors like Visual Studio Code for direct control (we use a combination of VS Code and Obsidian to manage this website).

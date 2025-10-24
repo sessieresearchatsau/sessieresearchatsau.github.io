@@ -7,12 +7,10 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
-  <!-- Themes -->
+  <!-- Default Themes -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" /> -->
-
-  <!-- Theme Plugin: Simple (light + dark) -->
-  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <!-- Theme: Simple Dark -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
 
 </head>
 <body>
@@ -30,7 +28,7 @@
       latex: {
         inlineMath   : [['$', '$']],
         displayMath  : [['$$', '$$']],
-      }
+      },
     }
   </script>
 
@@ -45,6 +43,14 @@
   <!-- docsify-themeable -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 
+  <!-- Add Mermaid and the plugin -->
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true });
+    window.mermaid = mermaid;
+  </script>
+  <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
+
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script> -->
   <!-- <script src="//cdn.jsdelivr.net/gh/LIGMATV/docsify-dark-switcher@latest/docsify-dark-switcher.js"></script> -->
   
@@ -55,7 +61,11 @@
     height: 3px;
     background: #ffffff50; /* light gray */
     border-radius: 2px;
-    margin: 20px 20px;
+    margin: 10px 10px;
+  }
+
+  .marker {
+    stroke: #00bcd4 !important; /* overrides the mermaid styling for the arrow-tip */
   }
 </style>
 </html>

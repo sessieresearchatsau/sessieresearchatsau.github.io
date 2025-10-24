@@ -1,6 +1,6 @@
 # Published Research
 
-> Ongoing TODO: list all published research that arose as a result of the Sessie Research Group (maybe include short descriptors)
+> Ongoing TODO: All published research that arose as a result of the Sessie Research Group is listed. Short descriptions may also be included.
 
 ## Papers
 - [An Improved Generalized Enumeration of Substitution Systems by Kenneth E. Caviness, Camille Morrow, Christen Case and Victoria Kratzke](https://www.complex-systems.com/abstracts/v29_i04_a04/)
