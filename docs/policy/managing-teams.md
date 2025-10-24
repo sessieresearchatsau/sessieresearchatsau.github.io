@@ -1,6 +1,6 @@
-# Managing Teams (for Administrators)
+# 🔑 Managing Teams (for Administrators)
 
-The page includes basic steps and links to official documentation for managing teams, roles, and organization wide member permissions. While not comprehensive, enough information is provided to adequately get started in managing members and their corresponding teams.
+The page includes basic steps and links to official documentation for managing teams, roles, and organization-wide member permissions. While not comprehensive, enough information is provided to adequately get started in managing members and their corresponding teams.
 
 > All steps shown below are starting from the main Organization GitHub Page.
 
@@ -34,7 +34,7 @@ Admin permissions, although permissive, are not as permissive as the privileges 
 
 This, of course, can be reversed at anytime.
 
-## Additional GitHub Documentation for Administrators
+## Additional Resources
 
-- <https://docs.github.com/en/organizations>
-- <https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations>
+- [Organizations and teams documentation - GitHub Docs](https://docs.github.com/en/organizations)
+- [About organizations - GitHub Docs](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations)

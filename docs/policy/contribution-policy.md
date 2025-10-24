@@ -1,4 +1,4 @@
-# :octocat: GitHub Contribution Policy
+# 🧩 GitHub Contribution Policy
 
 This policy outlines how team members should upload, write, and push content to GitHub to maintain clarity, traceability, and version integrity across our evolving systems.
 

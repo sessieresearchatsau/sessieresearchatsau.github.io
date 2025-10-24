@@ -1,11 +1,10 @@
 ---
-- [Home](/)
-  - [Project Overview](home/project-overview.md)
-  - [External Resources](home/external-resources.md)
+- Home
+  - [Project Overview](index.md)
+  - [External Resources](external-resources.md)
 
 - Research
-  - [Projects](research/projects.md)
-  - [Research Log](research/research-log.md)
+  - [Repositories](research/repos.md)
   - [Goals & Next Steps](research/goals.md)
   - [Published Research](research/published-research.md)
 

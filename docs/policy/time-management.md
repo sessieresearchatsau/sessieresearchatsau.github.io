@@ -55,7 +55,7 @@ These limits help ensure academic balance and compliance with labor regulations.
 
 ---
 
-### Helpful Links for using Clockify
+### Additional Resources
 
 - [Clockify Site](https://clockify.me/)
 - [Guide for Teams (Admin)](https://clockify.me/learn/resources/clockify-for-software-developers/)
