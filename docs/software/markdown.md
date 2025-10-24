@@ -85,7 +85,9 @@ def greet(name):
 #### 7. Math (LaTeX)
 
 - **Inline math**:
-```$(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{\,n-k} y^{\,k}$```
+```markdown
+$(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{\,n-k} y^{\,k}$
+```
 renders: $(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{\,n-k} y^{\,k}$
 
 - **Math Block**:
