@@ -1,4 +1,4 @@
-### 🏛️ Current Team
+## 🏛️ Current Team
 
 | Name              | Research Track                      | Field of Study                                      |
 |-------------------|--------------------------------------|-----------------------------------------------------|
@@ -13,8 +13,7 @@
 
 > NOTE: [Members and their corresponding teams](https://github.com/orgs/sessieresearchatsau/teams) have certain repository access privileges assigned to them. If you need to complete a certain task that requires higher access permissions, please contact someone in the admin team.
 
-
-### 📜 Past Contributors
+## 📜 Past Contributors
 
 | Name                      | Research Track                          | Field of Study                  |
 |---------------------------|------------------------------------------|---------------------------------|

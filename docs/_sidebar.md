@@ -3,15 +3,15 @@
   - [Project Overview](home/project-overview.md)
   - [External Resources](home/external-resources.md)
 
-- Research Progress
-  - [Projects](progress/projects.md)
-  - [Research Log](progress/research-log.md)
-  - [Goals & Next Steps](progress/goals.md)
-  - [Published Research](progress/published-research.md)
+- Research
+  - [Projects](research/projects.md)
+  - [Research Log](research/research-log.md)
+  - [Goals & Next Steps](research/goals.md)
+  - [Published Research](research/published-research.md)
 
-- Software Resources
+- Software Quickstart
   - [Mathematica](software/mathematica.md)
-  - [RuleFlow (Python/Conda)](software/ruleflow.md)
+  - [Python/Conda](software/python-conda.md)
   - [Git/GitHub (Version Control)](software/git.md)
   - [Markdown](software/markdown.md)  <!-- includes Obsidian and Docsify -->
   - [Formal Writing Tools](software/formal-writing.md)  <!-- includes Overleaf and JabRef -->
