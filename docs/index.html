@@ -12,7 +12,59 @@
   <!-- Theme: Simple Dark -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
 
+  <!-- Custom Dark Theme -->
+  <style>
+    :root {
+      /* Base Colors */
+      --base-background-color: #1c1f24; /* softer charcoal, not pure black */
+      --base-color: #e6e6e6;
+      --heading-color: #ffffff;
+      --strong-color: #ffffff;
+
+      /* Accent (Southern.edu green) */
+      --theme-color: #42b983;
+
+      /* Links */
+      --link-color: var(--theme-color);
+      --link-color--hover: #36a173;
+      --link-text-decoration: none;
+      --link-text-decoration--hover: underline;
+
+      /* Typography */
+      --base-font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      --base-font-size: 12pt; /* requested */
+      --base-line-height: 1.7;
+      --heading-font-weight: 600;
+
+      /* Layout */
+      --content-max-width: 90%;
+      --sidebar-width: 20rem;
+      --sidebar-background: #23272d;
+      --sidebar-nav-link-color: #d0d0d0;
+      --sidebar-nav-link-color--hover: var(--theme-color);
+      --sidebar-nav-link-color--active: var(--theme-color);
+
+      /* Tables */
+      --table-head-background: #2d333a;
+      --table-row-odd-background: #24292f;
+      --table-row-even-background: #1f2429;
+      --table-cell-padding: 0.75em 1em;
+
+      /* Notices */
+      --notice-background: #24332a;
+      --notice-border-color: var(--theme-color);
+      --notice-color: #e6e6e6;
+
+      /* Search Box */
+      --search-padding: 1rem;
+      --search-background: transparent;
+      --search-input-border-radius: 8px;
+      --search-input-border-width: 1px;
+      /* --search-input-border-color: #2e815c; */
+    }
+  </style>
 </head>
+
 <body>
   <div id="app"></div>
   <script>
@@ -56,16 +108,10 @@
   
 </body>
 <style>
-  hr {
-    border: none;
-    height: 3px;
-    background: #ffffff50; /* light gray */
-    border-radius: 2px;
-    margin: 10px 10px;
-  }
 
   .marker {
     stroke: #00bcd4 !important; /* overrides the mermaid styling for the arrow-tip */
   }
+
 </style>
 </html>

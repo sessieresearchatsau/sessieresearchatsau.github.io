@@ -34,7 +34,6 @@ Overleaf is a **cloud-based LaTeX editor** that allows you to write, edit, and c
 
 When you create a new project in Overleaf, simply focus on writing LaTeX and Overleaf will automatically compile it into a PDF (or other formats) for you. It is one of the de facto ways to write academic papers.
 
----
 
 ## JabRef
 JabRef is an **open-source reference manager** that uses **BibTeX** as its native format. It integrates seamlessly with LaTeX, making it easy to manage bibliographies and citations.

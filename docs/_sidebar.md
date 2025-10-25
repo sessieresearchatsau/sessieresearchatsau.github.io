@@ -1,4 +1,3 @@
----
 - Quickstart
   - [Project Overview](index.md)
   - [External Resources](external-resources.md)
@@ -11,7 +10,7 @@
 - Software Quickstart
   - [Mathematica](software/mathematica.md)
   - [Python/Conda](software/python-conda.md)
-  - [Git/GitHub (Version Control)](software/git.md)
+  - [Git/GitHub](software/git.md)
   - [Markdown](software/markdown.md)  <!-- includes Obsidian and Docsify -->
   - [Formal Writing Tools](software/formal-writing.md)  <!-- includes Overleaf and JabRef -->
 

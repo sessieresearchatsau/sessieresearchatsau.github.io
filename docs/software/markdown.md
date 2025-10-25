@@ -132,7 +132,7 @@ Obsidian is a knowledge management and note‑taking tool/editor built around Ma
 
 
 ## Docsify
-Docsify is a documentation site generator that turns Markdown files into a live, navigable website. Unlike static site generators, it doesn’t pre‑build HTML files—instead, it loads and renders your Markdown directly in the browser. This makes it lightweight and easy to set up: you just need an `index.html` and your Markdown files. For example, the documentation site currently on is powered by Docsify, meaning it’s essentially a collection of Markdown files displayed as a website. Since Markdown is plain text, you can also open and edit these files in editors like Visual Studio Code for direct control (we use a combination of VS Code and Obsidian to manage this website).
+Docsify is a documentation site generator that turns Markdown files into a live, navigable website. Unlike static site generators, it doesn’t pre‑build HTML files—instead, it loads and renders your Markdown directly in the browser. This makes it lightweight and easy to set up: you just need an `index.html` and your Markdown files. For example, the documentation site you are currently on is powered by Docsify, meaning it’s essentially a collection of Markdown files displayed as a website. Since Markdown is plain text, you can also open and edit these files in editors like Visual Studio Code for direct control (we use a combination of VS Code and Obsidian to manage this website).
 
 > Documentation for setting up repository-specific documentation sites can be found [here](https://github.com/sessieresearchatsau/sessieresearchatsau.github.io/tree/main).
 

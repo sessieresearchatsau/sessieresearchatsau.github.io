@@ -8,7 +8,7 @@ This policy outlines how team members should upload, write, and push content to 
 - Use [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`) to communicate changes clearly.
 - Follow a [branching strategy](https://nvie.com/posts/a-successful-git-branching-model/) that supports parallel development and clean releases.
 - Use [GitHub Issues](https://docs.github.com/en/issues) to propose changes, raise questions, or document bugs before pushing major updates.
-- Make sure to intentionally choose between "Private" or "Public" when creating new repositories. This ensures that we properly protect our intellectual property. In order to change a current repository, follow these steps: `[select repository] > Settings > General > Change Visibility [at bottom of page]`. Please consult an administrator for determining such settings.
+- Make sure to intentionally choose between "Private" or "Public" when creating new repositories. This ensures that we properly protect our intellectual property. In order to change a current repository, follow these steps: <kbd>[select repository] ➞ Settings ➞ General ➞ Change Visibility [at bottom of page]</kbd>. Please consult an administrator for determining such settings.
 
 ## Branching Model
 
