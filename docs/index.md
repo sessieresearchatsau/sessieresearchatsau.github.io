@@ -4,7 +4,7 @@ At its core, this project explores sequential substitution systems (SSS, or “s
 
 This site serves as the central documentation hub for our research group. Its purpose is twofold: first, to help new contributors get started quickly with the tools, workflows, and policies that shape our work; and second, to provide a living record of the progress, discussions, and discoveries that emerge across our projects. By consolidating onboarding guides, software usage notes, and research updates in one place (whether directly on the pages or as links), we aim to make our collective work more transparent, reproducible, and accessible to both current and future collaborators.
 
-A key part of this effort is the **[Introductory Notebooks Repository]()** (formerly called the FAQ). This evolving collection of notes captures both foundational concepts—such as sequential substitution systems (or “sessies”), causal networks, and enumeration methods. The notebooks includes introductions to Sessie rulesets and their causal structures, discussions of dimensionality in substitution systems, and methods for indexing and enumerating rulesets. These notebooks are not just background reading; they are working guides that can be adapted, extended, and tested as our research develops.
+A key part of this effort is the **[Introductory Notebooks Repository](https://sessieresearchatsau.github.io/introductory-notebooks/)** (formerly called the FAQ). This evolving collection of notes captures both foundational concepts—such as sequential substitution systems (or “sessies”), causal networks, and enumeration methods. The notebooks includes introductions to Sessie rulesets and their causal structures, discussions of dimensionality in substitution systems, and methods for indexing and enumerating rulesets. These notebooks are not just background reading; they are working guides that can be adapted, extended, and tested as our research develops.
 
 If you are new to the project, we recommend beginning with the setup and software usage guides. These will walk you through installing the necessary tools, running example notebooks, and understanding the conventions we follow for documenting results. Once you are comfortable with the basics, the Introductory Notebooks will help you explore deeper theoretical questions and connect them to the computational experiments we run. As you contribute, please also take note of our workflow and policy pages, which ensure consistency and clarity across repositories.
 
@@ -48,7 +48,7 @@ This diagram shows the **hub-and-spoke model**: the central documentation site a
    Read through the [Team Policy & Management](policy/contribution-policy.md) section to understand our workflow, contribution standards, and collaboration practices.
 
 3. **Explore the Notebook Reference**  
-   Begin with the [Introductory Notebooks]() for introductions to Sessie rulesets, causal networks, and enumeration methods. These notebooks provide both conceptual grounding and practical examples.
+   Begin with the [Introductory Notebooks](https://sessieresearchatsau.github.io/introductory-notebooks/) for introductions to Sessie rulesets, causal networks, and enumeration methods. These notebooks provide both conceptual grounding and practical examples.
 
 4. **Check out active repositories**  
    Visit the [Research Repositories](research/repos.md) page to see current projects, codebases, and documentation.
