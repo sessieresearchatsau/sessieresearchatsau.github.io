@@ -1,5 +1,5 @@
 ---
-- Home
+- Quickstart
   - [Project Overview](index.md)
   - [External Resources](external-resources.md)
 
