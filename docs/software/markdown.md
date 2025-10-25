@@ -114,11 +114,10 @@ $$(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{n-k} y^k$$
 graph TD
     A[Main Project Documentation Hub]
 
-    A <--> B[Software Packages]
+    A <--> B[Custom Software Packages]
     A <--> C[Research & Notebook Bases]
     A <--> D[Applications Exploration]
-    A <--> E[Resources]
-    A <--> F[Other Repos, etc.]
+    A <--> E[Resources, etc.]
 ```
 will render [this](index.md#organizational-structure) diagram.
 

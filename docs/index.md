@@ -18,18 +18,17 @@ The Sessie Research Group is organized around a central documentation hub, which
 graph TD
     A[Main Project Documentation Hub]:::center
 
-    A <--> B[Software Packages]
+    A <--> B[Custom Software Packages]
     A <--> C[Research & Notebook Bases]
     A <--> D[Applications Exploration]
-    A <--> E[Resources]
-    A <--> F[Other Repos, etc.]
+    A <--> E[Resources, etc.]
 
     %% Node styles
     classDef center fill:#4a90e2,stroke:#ffffff,stroke-width:2px,color:#ffffff;
     classDef repo fill:#2d2d2d,stroke:#aaaaaa,stroke-width:1.5px,color:#eeeeee;
 
     %% Apply repo style to all outer nodes
-    class B,C,D,E,F repo;
+    class B,C,D,E repo;
 
     %% Arrow styles
     linkStyle default stroke:#00bcd4,stroke-width:2px;
