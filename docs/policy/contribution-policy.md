@@ -51,6 +51,7 @@ We follow a simplified version of [Git Flow](https://nvie.com/posts/a-successful
 ## Writing & Documentation
 
 - Use Markdown for READMEs, glossaries, and guides. Because this website is also written in markdown, consider placing you documentation here, especially if the content is guides/glossaries. If the content is project-specific, either create another specialized [documentation site](https://docsify.js.org/), [GitHub Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis) page, or simple [READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes). If the research being documented is primarily math-heavy/mathematica based, simply giving a short description in markdown and then linking to the PDF/Notebook is preferred. **Please remember** to properly link all documentation to the main documentation hub (this website), usually in the [Research Progress > Projects](progress/projects.md).
+- Follow [these instructions](https://github.com/sessieresearchatsau/sessieresearchatsau.github.io) for editing documentation and setting up new documentation (with GitHub Pages and/or Docsify).
 - Place clear comments (and docstrings) in your code. This ensures that others understand your code more easily. It also can be helpful for you when coming back to the code a while later.
 - Keep definitions modular and reusable.
 - Document assumptions, edge cases, and naming decisions.
