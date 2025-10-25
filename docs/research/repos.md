@@ -1,6 +1,6 @@
 # Repositories
 
-> TODO: List all the repositories here. Provide a short description and all relevant links to their documentation/READMEs/PDFs/Notebooks.
+> NOTE: List all the repositories here. Provide a short description and all relevant links to their documentation/READMEs/PDFs/Notebooks.
 
 ---
 
