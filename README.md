@@ -13,7 +13,7 @@ We also use the following plugins to enable additional features/custimizations:
 
 ## Editing the documentation
 
-Editing the documentation is very easy. If you have the markdown files cloned on to your computer, simply open a file in any editor (VS Code or Obsidian are nice), make a change, and push the change. Alternately, you can [make edits right here in GitHub]([Editing files - GitHub Docs](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files))!
+Editing the documentation is very easy. If you have the markdown files cloned on to your computer, simply open a file in any editor (VS Code or Obsidian are nice), make a change, and push the change. Alternately, you can [make edits right here in GitHub](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files)!
 
 It should, however, be noted that if you want to see your changes rendered on the website right away, you must download Docsify so that you can serve it locally over `localhost`. This way changes are reflected immediately in your browser window. After you are happy with your changes, you then can push them to GitHub. The instructions for setting up Docsify locally are covered below.
 
