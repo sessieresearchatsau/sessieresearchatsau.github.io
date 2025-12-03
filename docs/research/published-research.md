@@ -16,4 +16,4 @@
 - [Tree of Strings | Wolfram Demonstrations Project](https://demonstrations.wolfram.com/TreeOfStrings/)
     _(another way to interact with the enumeration of all strings, interpreting the binary coding as a binary tree in the case of strings -- base-3 encoding and a ternary tree for string lists)_
 - [Calkin-Wilf Tree of Fractions | Wolfram Demonstrations Project](https://demonstrations.wolfram.com/CalkinWilfTreeOfFractions/)
-    _(a non-repeating enumeration of all rational numbers shown in a binary tree, part of the inspiration for our enumerations)_
+    _(a bijective enumeration of all rational numbers shown in a binary tree, part of the inspiration for our enumerations)_
